@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Tienda Italiana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background-color: #dc143c;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+        }
+        
+        nav {
+            background-color: #228B22;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+        }
+        
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .producto {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .producto:hover {
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🇮🇹 Mi Primera Tienda Italiana</h1>
+        <p>Bienvenido a nuestro mundo de sabores italianos</p>
+    </header>
+    
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <main>
+        <section id="inicio" class="hero">
+            <h2>Bienvenido</h2>
+            <p>Descubre los mejores productos italianos directamente desde Italia a tu mesa.</p>
+        </section>
+        
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos">
+                <div class="producto">
+                    <h3>🍝 Pasta Fresca</h3>
+                    <p>Pasta artesanal hecha con los mejores ingredientes</p>
+                    <p><strong>$15.99</strong></p>
+                </div>
+                <div class="producto">
+                    <h3>🍅 Salsa de Tomate</h3>
+                    <p>Salsa tradicional italiana con tomates frescos</p>
+                    <p><strong>$8.99</strong></p>
+                </div>
+                <div class="producto">
+                    <h3>🧀 Queso Parmigiano</h3>
+                    <p>Queso italiano auténtico de alta calidad</p>
+                    <p><strong>$22.99</strong></p>
+                </div>
+                <div class="producto">
+                    <h3>🍷 Vino Italiano</h3>
+                    <p>Vinos selectos de las mejores regiones italianas</p>
+                    <p><strong>$19.99</strong></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Email: info@tiendaitaliana.com</p>
+            <p>Teléfono: +34 600 123 456</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Mi Primera Tienda Italiana. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
